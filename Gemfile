@@ -66,3 +66,4 @@ gem 'erb2haml' #既存のerbファイルをhamlに変換
 gem 'jquery-rails' #railsでjqueryを利用するために導入
 gem 'bootstrap' #versionをしていないのでbootstrap4がインストールされる
 gem 'bootstrap_form' #formを自動でbootstrapレイアウトにする
+gem 'rakuten_web_service' #楽天API
