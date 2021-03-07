@@ -1,0 +1,12 @@
+- i = 1
+- @books.each do |item|
+  %tr
+    %td= i
+    - i += 1
+    %td
+      %img{:src => "#{item['smallImageUrls'][0]}"}/
+    %td
+      %a{:href => "#{item['itemUrl']}", :target => "_blank"}= item['itemName']
+    %td
+      = item['itemPrice']
+      円
